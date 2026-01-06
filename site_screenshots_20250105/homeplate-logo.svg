@@ -1,0 +1,41 @@
+<svg
+  width="44"
+  height="44"
+  viewBox="0 0 32 32"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- 홈플레이트 모양 (오각형) -->
+  <path
+    d="M4 6 L28 6 L28 18 L16 28 L4 18 Z"
+    fill="white"
+    stroke="rgba(255,255,255,0.3)"
+    stroke-width="1"
+  />
+
+  <!-- 내부 디테일 -->
+  <path
+    d="M6 8 L26 8 L26 17 L16 25 L6 17 Z"
+    fill="none"
+    stroke="rgba(59, 130, 246, 0.7)"
+    stroke-width="1.5"
+  />
+
+  <!-- 중앙 점 -->
+  <circle
+    cx="16"
+    cy="14"
+    r="2"
+    fill="rgb(59, 130, 246)"
+  />
+
+  <!-- 하단 텍스트 마크 -->
+  <text
+    x="16"
+    y="23"
+    text-anchor="middle"
+    font-family="monospace"
+    font-size="6"
+    fill="rgb(59, 130, 246)"
+    font-weight="bold"
+  >H</text>
+</svg>
